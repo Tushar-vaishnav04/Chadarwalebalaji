@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-&sp&r5@^7+twm1sz4(4!ot0i_&=c1=_8#kb+$h9sm7^p))sc!2
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "https://chadarwalebalaji.onrender.com/"
+    "chadarwalebalaji.onrender.com/"
 ]
 
 
