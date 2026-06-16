@@ -1,0 +1,674 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>श्री चादर वाले बालाजी मंदिर – पाली, राजस्थान</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Serif+Devanagari:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+
+  <!-- ============================================================
+       FLOATING DIYAS (ambient)
+  ============================================================ -->
+  <div class="diya-container" aria-hidden="true">
+    <div class="diya d1">🪔</div>
+    <div class="diya d2">🪔</div>
+    <div class="diya d3">🪔</div>
+    <div class="diya d4">🪔</div>
+    <div class="diya d5">🪔</div>
+  </div>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="om-logo">ॐ</span>
+        <span class="logo-text">
+          <span class="logo-hindi">श्री चादर वाले बालाजी</span>
+          <span class="logo-sub">Pali • Rajasthan</span>
+        </span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#darshan" class="nav-link">Darshan</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#events" class="nav-link">Events</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      
+        
+
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-rays" aria-hidden="true">
+      <div class="ray r1"></div><div class="ray r2"></div><div class="ray r3"></div>
+      <div class="ray r4"></div><div class="ray r5"></div><div class="ray r6"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-om" data-aos="zoom-in" data-aos-duration="800">ॐ</div>
+      <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+        श्री चादर वाले बालाजी
+      </h1>
+      <p class="hero-location" data-aos="fade-up" data-aos-delay="350">
+        <i class="fas fa-map-marker-alt"></i> Pali • Rajasthan
+      </p>
+      <p class="hero-tagline" data-aos="fade-up" data-aos-delay="500">
+        A Divine Place of Faith and Blessings
+      </p>
+
+      <div class="hero-buttons" data-aos="fade-up" data-aos-delay="650">
+        <a href="#about" class="btn-primary"><i class="fas fa-temple"></i> Visit Temple</a>
+      </div>
+
+      <!-- Countdown -->
+      <div class="countdown-box" data-aos="fade-up" data-aos-delay="800">
+        <p class="countdown-label"><i class="fas fa-bell"></i> Next Aarti &nbsp;•&nbsp; <strong>Mangla Aarti</strong> &nbsp;•&nbsp; 5:00 AM</p>
+        <div class="countdown-timer">
+          <div class="time-block">
+            <span id="cd-hours">06</span>
+            <small>Hours</small>
+          </div>
+          <span class="cd-colon">:</span>
+          <div class="time-block">
+            <span id="cd-minutes">38</span>
+            <small>Minutes</small>
+          </div>
+          <span class="cd-colon">:</span>
+          <div class="time-block">
+            <span id="cd-seconds">32</span>
+            <small>Seconds</small>
+          </div>
+        </div>
+      </div>
+ <!-- Quote -->
+    <div class="hero-quote" data-aos="fade-up" data-aos-delay="950">
+        <i class="fas fa-quote-left quote-icon"></i>
+        <p>"जहां विश्वास होता है,<br>वहां भगवान का आशीर्वाद अवश्य होता है"</p>
+      </div>
+      
+      
+    </div>
+
+
+  
+  </section>
+ 
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section class="about section-pad" id="about">
+    <div class="container">
+      <div class="section-eyebrow" data-aos="fade-up">मंदिर का परिचय</div>
+      <h2 class="section-heading" data-aos="fade-up" data-aos-delay="100">
+        The Sacred Story of<br>Shree Chadar Wale Balaji
+      </h2>
+
+      <div class="about-grid">
+        <div class="about-image" data-aos="fade-right" data-aos-delay="200">
+          <div class="about-img-frame">
+            <img src="\static\images\gallery-diyas-L06pPG6N.jpg"
+                 alt="Shree Chadar Wale Balaji Temple" loading="lazy" />
+            <div class="img-glow"></div>
+          </div>
+          <div class="about-stat-badge">
+            <span class="stat-number" data-count="108">0</span>
+            <span class="stat-label">Years of Divine Blessings</span>
+          </div>
+        </div>
+
+        <div class="about-content" data-aos="fade-left" data-aos-delay="300">
+          <div class="about-card">
+            <div class="about-icon"><i class="fas fa-landmark"></i></div>
+            <h3>Origin &amp; History</h3>
+            <p>श्री चादर वाले बालाजी मंदिर पाली, राजस्थान में स्थित एक पावन धाम है। इस मंदिर की स्थापना सैकड़ों वर्ष पूर्व हुई थी। ऐसी मान्यता है कि यहाँ स्थापित बालाजी महाराज की प्रतिमा स्वयंभू है और अत्यंत चमत्कारी है।</p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon"><i class="fas fa-fire-flame-curved"></i></div>
+            <h3>Sacred Significance</h3>
+            <p>The temple is revered for its divine energy and the miraculous blessings bestowed upon devotees. The sacred chadar (holy cloth) draped upon the deity is a symbol of devotion, protection, and divine grace that draws pilgrims from across Rajasthan.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon"><i class="fas fa-hands-praying"></i></div>
+            <h3>Why Devotees Visit</h3>
+            <p>Thousands of devotees flock to this shrine seeking relief from ailments, resolution of life's challenges, and spiritual upliftment. Many testify to miraculous fulfillment of their wishes after sincere prayer and Chadar Seva.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       AARTI SCHEDULE
+  ============================================================ -->
+  <section class="aarti section-pad" id="darshan">
+    <div class="aarti-bg-pattern" aria-hidden="true"></div>
+    <div class="container">
+      <div class="section-eyebrow light" data-aos="fade-up">दैनिक आरती</div>
+      <h2 class="section-heading light" data-aos="fade-up" data-aos-delay="100">Daily Aarti Schedule</h2>
+
+      <div class="aarti-grid">
+        <div class="aarti-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="aarti-icon">🌅</div>
+          <h3 class="aarti-name">Mangla Aarti</h3>
+          <p class="aarti-time">5:00 AM</p>
+          <div class="aarti-bar"></div>
+        </div>
+        <div class="aarti-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="aarti-icon">🌸</div>
+          <h3 class="aarti-name">Shringar Aarti</h3>
+          <p class="aarti-time">8:30 AM</p>
+          <div class="aarti-bar"></div>
+        </div>
+        <div class="aarti-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="aarti-icon">☀️</div>
+          <h3 class="aarti-name">Bhog Aarti</h3>
+          <p class="aarti-time">12:00 PM</p>
+          <div class="aarti-bar"></div>
+        </div>
+        <div class="aarti-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="aarti-icon">🌆</div>
+          <h3 class="aarti-name">Sandhya Aarti</h3>
+          <p class="aarti-time">6:30 PM</p>
+          <div class="aarti-bar"></div>
+        </div>
+        <div class="aarti-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="aarti-icon">🌙</div>
+          <h3 class="aarti-name">Shayan Aarti</h3>
+          <p class="aarti-time">9:00 PM</p>
+          <div class="aarti-bar"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALLERY
+  ============================================================ -->
+  <section class="gallery section-pad" id="gallery">
+    <div class="container">
+      <div class="section-eyebrow" data-aos="fade-up">दर्शन गैलरी</div>
+      <h2 class="section-heading " data-aos="fade-up" data-aos-delay="100">Sacred Moments</h2>
+
+        <section class="gallery-section">
+          <div class="gallery-grid">
+
+              {% for item in gallery %}
+            
+                      <!-- 1. Display the image (assuming your model field is named 'image') -->
+                      {% if item.file_type == "image" %}
+                        <div class="gallery-item">  
+                              <img src="{{ item.file.url }}" alt="{{ item.title }}">
+                          </div>   
+                      {% endif %}
+                  
+
+                        <!-- 1. Display the video (assuming your model field is named 'video') -->
+                      {% if item.file_type == "video" %}
+                          
+                              <!-- Video -->
+                              <div class="gallery-item video-item">
+                                  <video muted loop autoplay >
+                                      <source src="{{ item.file.url }}" type="video/mp4">
+                                  </video>
+                                  <div class="play-btn">▶</div>
+                              </div>
+        
+                      {% endif %}
+
+                  
+              {% empty %}
+                  <!-- This shows up only if your database table is completely empty -->
+                  <p>No photos available in the gallery yet.</p>
+              {% endfor %}
+
+
+          </div>
+        </section>
+      </div>
+  </section>
+
+  {% comment %} <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close"><i class="fas fa-times"></i></button>
+    <img id="lightboxImg" src="" alt="Gallery Image" />
+  </div> {% endcomment %}
+
+  <!-- ============================================================
+       EVENTS
+  ============================================================ -->
+  <section class="events section-pad" id="events">
+    <div class="container">
+      <div class="section-eyebrow" data-aos="fade-up">आगामी उत्सव</div>
+      <h2 class="section-heading light" data-aos="fade-up" data-aos-delay="100">Upcoming Events &amp; Festivals</h2>
+
+      <div class="events-timeline">
+        {% for item in events %}
+        <div class="event-card" data-aos="fade-right" data-aos-delay="100">
+          <div class="event-date">
+            <span class="event-day">{{item.event_date| date:" d "}}</span>
+            <span class="event-month">{{item.event_date| date:" M "}}</span>
+          </div>
+          <div class="event-content">
+            <h3>{{item.event_name_hi}}</h3>
+            <p>एक भव्य भजन संध्या का आयोजन किया जाएगा जिसमें प्रसिद्ध भजन गायकों द्वारा सुमधुर भजन प्रस्तुत किए जाएंगे।</p>
+            <span class="event-tag"><i class="fas fa-music"></i> Bhajan</span>
+          </div>
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FESTIVALS
+  ============================================================ -->
+  <section class="festivals section-pad" id="festivals">
+    <div class="container">
+      <div class="section-eyebrow" data-aos="fade-up">पर्व और उत्सव</div>
+      <h2 class="section-heading" data-aos="fade-up" data-aos-delay="100">Sacred Festivals</h2>
+
+      <div class="festivals-grid">
+        <div class="festival-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="festival-img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Hanuman_wall_painting_at_Tirupati.jpg/800px-Hanuman_wall_painting_at_Tirupati.jpg" alt="Hanuman Jayanti" loading="lazy"/>
+            <div class="festival-img-overlay"></div>
+          </div>
+          <div class="festival-body">
+            <span class="festival-badge">April</span>
+            <h3>Hanuman Jayanti</h3>
+            <p>The birth anniversary of Lord Hanuman, celebrated with great devotion, Sundar Kand recitation, and Chadar Seva.</p>
+          </div>
+        </div>
+
+        <div class="festival-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="festival-img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Hanuman_Chalisa_Significance.jpg/640px-Hanuman_Chalisa_Significance.jpg" alt="Ram Navami" loading="lazy"/>
+            <div class="festival-img-overlay"></div>
+          </div>
+          <div class="festival-body">
+            <span class="festival-badge">April</span>
+            <h3>Ram Navami</h3>
+            <p>Lord Ram's birth celebration with special prayers, Ramayana recitation, and grand prasad distribution for devotees.</p>
+          </div>
+        </div>
+
+        <div class="festival-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="festival-img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Diwali_Diyas.jpg/640px-Diwali_Diyas.jpg" alt="Balaji Mahotsav" loading="lazy"/>
+            <div class="festival-img-overlay"></div>
+          </div>
+          <div class="festival-body">
+            <span class="festival-badge">August</span>
+            <h3>Balaji Mahotsav</h3>
+            <p>The grand annual festival of the temple — three days of Maha Yagna, night-long bhajans, and a massive langar for all.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS
+  ============================================================ -->
+  <section class="testimonials section-pad">
+    <div class="container">
+      <div class="section-eyebrow light" data-aos="fade-up">श्रद्धालुओं के अनुभव</div>
+      <h2 class="section-heading light" data-aos="fade-up" data-aos-delay="100">Devotees' Experiences</h2>
+
+      <div class="testimonials-slider-wrap" data-aos="fade-up" data-aos-delay="200">
+        <div class="testimonials-track" id="testimonialsTrack">
+          <div class="testimonial-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"बालाजी महाराज की कृपा से मेरे परिवार की सभी समस्याएं दूर हो गईं। यह मंदिर सच में एक दिव्य स्थान है।"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">RS</div>
+              <div>
+                <strong>Rakesh Sharma</strong>
+                <small>Jodhpur, Rajasthan</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"मैंने यहाँ चादर सेवा की और मेरी मनोकामना पूर्ण हुई। बालाजी महाराज सभी भक्तों की रक्षा करते हैं।"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">SD</div>
+              <div>
+                <strong>Sunita Devi</strong>
+                <small>Pali, Rajasthan</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"This temple radiates a divine energy unlike any other. The Aarti here is soul-stirring and the atmosphere is incredibly peaceful."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">AJ</div>
+              <div>
+                <strong>Amit Joshi</strong>
+                <small>Jaipur, Rajasthan</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"बालाजी महाराज के दर्शन के बाद मन को जो शांति मिलती है वो अतुलनीय है। हर वर्ष हनुमान जयंती पर यहाँ आना हमारी परंपरा है।"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">PA</div>
+              <div>
+                <strong>Pooja Agarwal</strong>
+                <small>Ajmer, Rajasthan</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-controls">
+          <button class="slider-btn" id="prevBtn" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+          <div class="slider-dots" id="sliderDots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <button class="slider-btn" id="nextBtn" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT
+  ============================================================ -->
+  <section class="contact section-pad" id="contact">
+    <div class="container">
+      <div class="section-eyebrow" data-aos="fade-up">संपर्क करें</div>
+      <h2 class="section-heading" data-aos="fade-up" data-aos-delay="100">Visit &amp; Contact Us</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Temple Address</h4>
+              <p>श्री चादर वाले बालाजी मंदिर<br>पाली, राजस्थान – 306401<br>India</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p><a href="https://wa.me/919876543210" target="_blank">+91 98765 43210</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:info@balajipali.org">info@balajipali.org</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <h4>Temple Timings</h4>
+              <p>5:00 AM – 12:30 PM<br>4:00 PM – 9:30 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-map" data-aos="fade-left" data-aos-delay="300">
+          <div class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114808.36767773895!2d73.28073!3d25.77199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3946e069aa4ecf73%3A0x765b29aa36e451bc!2sPali%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin"
+              width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" title="Temple Location">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="footer-om">ॐ</div>
+          <h3 class="footer-temple-name">श्री चादर वाले बालाजी</h3>
+          <p>A sacred abode of Lord Balaji in Pali, Rajasthan — where faith meets divine grace.</p>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Temple</a></li>
+            <li><a href="#darshan">Darshan &amp; Aarti</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Daily Aarti</h4>
+          <ul class="aarti-list">
+            <li><i class="fas fa-circle-dot"></i> Mangla Aarti — 5:00 AM</li>
+            <li><i class="fas fa-circle-dot"></i> Shringar Aarti — 8:30 AM</li>
+            <li><i class="fas fa-circle-dot"></i> Bhog Aarti — 12:00 PM</li>
+            <li><i class="fas fa-circle-dot"></i> Sandhya Aarti — 6:30 PM</li>
+            <li><i class="fas fa-circle-dot"></i> Shayan Aarti — 9:00 PM</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2024 श्री चादर वाले बालाजी मंदिर, पाली • Rajasthan. All Rights Reserved.</p>
+        <p>जय बजरंग बली 🙏</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- AOS JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    // ── AOS Init ──────────────────────────────────────────────
+    AOS.init({ once: true, duration: 700, easing: 'ease-out-cubic' });
+
+    // ── Navbar scroll blur ────────────────────────────────────
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // ── Hamburger ─────────────────────────────────────────────
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
+      navLinks.classList.toggle('open');
+    });
+    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      hamburger.classList.remove('open');
+      navLinks.classList.remove('open');
+    }));
+
+    // ── Active nav link on scroll ─────────────────────────────
+    const sections = document.querySelectorAll('section[id]');
+    const navAnchors = document.querySelectorAll('.nav-link');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 100) current = s.id;
+      });
+      navAnchors.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+      });
+    });
+
+    // ── Countdown Timer ───────────────────────────────────────
+    function getNextAartiTime() {
+      const now = new Date();
+      const target = new Date(now);
+      target.setHours(5, 0, 0, 0);
+      if (now >= target) target.setDate(target.getDate() + 1);
+      return target;
+    }
+    function updateCountdown() {
+      const diff = getNextAartiTime() - new Date();
+      const h = Math.floor(diff / 3600000);
+      const m = Math.floor((diff % 3600000) / 60000);
+      const s = Math.floor((diff % 60000) / 1000);
+      document.getElementById('cd-hours').textContent   = String(h).padStart(2,'0');
+      document.getElementById('cd-minutes').textContent = String(m).padStart(2,'0');
+      document.getElementById('cd-seconds').textContent = String(s).padStart(2,'0');
+    }
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+    // ── Counter Animation ─────────────────────────────────────
+    const counters = document.querySelectorAll('[data-count]');
+    const countObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const target = +entry.target.dataset.count;
+          let count = 0;
+          const step = Math.ceil(target / 60);
+          const timer = setInterval(() => {
+            count = Math.min(count + step, target);
+            entry.target.textContent = count;
+            if (count >= target) clearInterval(timer);
+          }, 25);
+          countObserver.unobserve(entry.target);
+        }
+      });
+    });
+    counters.forEach(c => countObserver.observe(c));
+
+    // ── Gallery Lightbox ──────────────────────────────────────
+    const lightbox     = document.getElementById('lightbox');
+    const lightboxImg  = document.getElementById('lightboxImg');
+    const lightboxClose= document.getElementById('lightboxClose');
+    document.querySelectorAll('.gallery-item').forEach(item => {
+      item.addEventListener('click', () => {
+        lightboxImg.src = item.dataset.src;
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+    function closeLightbox() {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+    lightboxClose.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+
+    // ── Donation Amount Buttons ───────────────────────────────
+    document.querySelectorAll('.amount-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.amount-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('customAmount').value = btn.dataset.amount;
+      });
+    });
+
+    // ── Testimonials Slider ───────────────────────────────────
+    const track  = document.getElementById('testimonialsTrack');
+    const dots   = document.querySelectorAll('.dot');
+    let current  = 0;
+    const cards  = track.querySelectorAll('.testimonial-card');
+    function goToSlide(n) {
+      current = (n + cards.length) % cards.length;
+      track.style.transform = `translateX(-${current * 100}%)`;
+      dots.forEach((d, i) => d.classList.toggle('active', i === current));
+    }
+    document.getElementById('prevBtn').addEventListener('click', () => goToSlide(current - 1));
+    document.getElementById('nextBtn').addEventListener('click', () => goToSlide(current + 1));
+    dots.forEach((d, i) => d.addEventListener('click', () => goToSlide(i)));
+    setInterval(() => goToSlide(current + 1), 5000);
+
+    // ── Back to Top ───────────────────────────────────────────
+    const btt = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => btt.classList.toggle('visible', window.scrollY > 400));
+    btt.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // ── Smooth scrolling for anchors ──────────────────────────
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
